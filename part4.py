@@ -14,10 +14,13 @@ Product: 60
 '''
 
 num = int(input("Enter a number or enter 0 to stop:"))
-
+total = 0
+putins = 0
 
 while num != 0:
+  total = total + num
+  putins = putins + 1
   num = int(input("Enter a number or enter 0 to stop:"))
-
-
-print("Product: ", product )
+  
+  
+print("Product: ", )
