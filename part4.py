@@ -14,12 +14,13 @@ Product: 60
 '''
 
 num = int(input("Enter a number or enter 0 to stop:"))
-total = 0
-product = num
+product = 1
+
 
 while num != 0:
-  productofnumbers = product * num
+  product = product * num
   num = int(input("Enter a number or enter 0 to stop:"))
+
   
   
-print("Product: ", productofnumbers)
+print("Product: ", product)

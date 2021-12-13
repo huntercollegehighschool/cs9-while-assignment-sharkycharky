@@ -18,3 +18,20 @@ Enter a number or enter 0 to stop: 0
 Number of evens: 3
 
 '''
+def code (): 
+ entered = input("Enter a number or enter 0 to stop: ")
+ numberofevens = 0
+ evennumber = 0
+ oddnumber = 0
+
+ while entered != 0:
+   if entered % 2 == 0:
+     entered = evennumber
+   else: #linked to latest if statement
+     entered = oddnumber
+  
+ print ("Number of evens: ", numberofevens)
+
+
+
+ 
